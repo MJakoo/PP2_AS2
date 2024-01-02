@@ -7,7 +7,18 @@ import loader.CSVLoader;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * The main application window for the movie application.
+ * This frame hosts different panels for browsing movies and managing watchlists.
+ */
 public class MainFrame extends JFrame {
+
+    /**
+     * Constructs the MainFrame which serves as the primary interface for the user.
+     * It sets up the movie browsing and watchlist panels.
+     *
+     * @param username The username of the currently logged-in user.
+     */
     public MainFrame(String username) {
         setTitle("Movie App");
         setSize(1000, 600);
@@ -15,7 +26,7 @@ public class MainFrame extends JFrame {
         setLayout(new BorderLayout());
 
         // Load databases
-        MovieDatabase movieDatabase = CSVLoader.loadMoviesFromCSV("src/resources/moviedb.csv");
+        MovieDatabase movieDatabase = CSVLoader.loadMoviesFromCSV();
         WatchListDatabase watchListDatabase = new WatchListDatabase();
 
         // Create panels
