@@ -63,15 +63,6 @@ The `MovieAppTest` class contains a suite of unit tests ensuring the correct fun
 
 These tests play a critical role in maintaining the reliability and stability of the application, providing thorough coverage of its core functionalities.
 
-
-## Contribution
-
-| Contributor | Contributions | Contribution |
-| ----------- | ------------- |  ------------- |
-| Javid Magsudov    | Team Leader. Developed sorting/filtering features, integrated Stream API and lambda functions, and managed the Collections framework usage. Worked on JPanels and JFrames | 36%  |
-| Sama Zeynalli  | Focused on the development of the MainFrame, various entity classes, and the CSVLoader for data import. Wrote this Report. | 32% |
-| Ahad Hasanli  | Worked on the initial setup of the project and entities, implemented the file reading/writing functionality, and handled exception scenarios. Added Javadoc comments. | 32% |
-
 ## Getting Started
 - Clone the repository: `git clone https://github.com/MJakoo/PP2_AS2.git`
 - Navigate to the project directory and compile the code.
